@@ -1,0 +1,68 @@
+{
+  "botName": "SUHAN BOT",
+  "version": "1.0.0",
+  "author": "SUHAN AHMED",
+
+  "prefix": "!",
+  "language": "en",
+  "timeZone": "Asia/Dhaka",
+
+  "owner": {
+    "name": "SUHAN AHMED",
+    "uid": "YOUR_OWNER_UID"
+  },
+
+  "adminBot": [
+    "YOUR_ADMIN_UID"
+  ],
+
+  "settings": {
+    "enableTypingIndicator": true,
+    "typingDuration": 2000,
+    "autoRead": true,
+    "autoReact": false,
+    "maintenance": false
+  },
+
+  "permissions": {
+    "everyone": true,
+    "adminOnlyCommands": [
+      "ban",
+      "unban",
+      "kick",
+      "prefix",
+      "restart"
+    ]
+  },
+
+  "whiteListMode": {
+    "enable": false,
+    "whiteListIds": []
+  },
+
+  "database": {
+    "type": "sqlite",
+    "autoSyncWhenStart": false
+  },
+
+  "autoRestart": {
+    "enable": false,
+    "time": null
+  },
+
+  "logging": {
+    "enable": true,
+    "message": true,
+    "event": true,
+    "reaction": true,
+    "unsend": true
+  },
+
+  "botFeatures": {
+    "ai": true,
+    "music": true,
+    "video": true,
+    "tiktok": true,
+    "facebookVideo": true
+  }
+}
