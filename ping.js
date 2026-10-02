@@ -1,8 +1,16 @@
 module.exports = {
-  name: "ping",
-  description: "Check if SUHAN BOT is online",
+  config: {
+    name: "ping",
+    version: "1.0.0",
+    author: "SUHAN AHMED",
+    countDown: 5,
+    role: 0,
+    shortDescription: "Check bot response",
+    longDescription: "Check whether the bot is online.",
+    category: "system"
+  },
 
-  async execute({ message }) {
-    await message.reply("🏓 Pong!\n🤖 SUHAN BOT is online!");
+  onStart: async function ({ message }) {
+    return message.reply("🏓 Pong!\n🤖 Bot is online!");
   }
 };
