@@ -1,0 +1,15 @@
+{
+  "name": "suhan-bot",
+  "version": "1.0.0",
+  "description": "SUHAN BOT - A Facebook Messenger chatbot created by SUHAN AHMED.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "SUHAN AHMED",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "dotenv": "^16.5.0"
+  }
+}
